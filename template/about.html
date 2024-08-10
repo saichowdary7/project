@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+<style>
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+</style>
+<body style="background-image: url({{ url_for('static', filename='images/bg.jpeg') }});background-repeat:no-repeat;background-size:cover;">
+
+<h1 align=center>Text and Image Plagiarism Detection</h1>
+
+
+<div class="btn-group" style="width:100%;padding-left:0%;padding-top:10%;">
+<p>Plagiarism, in both textual and visual content, poses a significant challenge in academic, professional, and online environments. This abstract introduces the concept of Text and Image Plagiarism Detection using Natural Language Processing (NLP) and image processing techniques. It outlines the problem of detecting plagiarism across diverse content types and proposes an integrated solution to address this multifaceted challenge.</p>
+</div>
+
+
+
+</body>
+</html>

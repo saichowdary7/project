@@ -1,0 +1,2 @@
+Data science is a field that deals with extracting insights and knowledge from data through various techniques, including statistics, machine learning, data mining, and visualization. It encompasses a wide range of disciplines such as mathematics, computer science, and domain-specific knowledge.
+

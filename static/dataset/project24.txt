@@ -1,0 +1,4 @@
+Plagiarism detection is a critical concern across various domains, including academia, journalism, and content creation. In this project, we present an enhanced system for detecting plagiarism in both text and image files.
+The system is implemented as a web application using the Flask framework in Python. It allows users to upload text and image files, which are then analyzed for potential plagiarism. The system consists of two main components: text plagiarism detection and image plagiarism detection.
+For text plagiarism detection, the system employs advanced techniques such as TF-IDF (Term Frequency-Inverse Document Frequency), cosine similarity, and difflib. Text files uploaded by users are compared with a corpus of existing text documents to identify similarities. Additionally, the system generates difference reports in HTML format, highlighting the similarities and differences between the uploaded text and existing documents.
+
